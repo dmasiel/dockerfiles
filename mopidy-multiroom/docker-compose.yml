@@ -1,6 +1,6 @@
 mopidy:
     build: ../mopidy/
-    image: mopidy
+   # image: mopidy
     ports:
         - "6680:6680"
         - "6600:6600"
@@ -11,7 +11,7 @@ mopidy:
 
 snapserver:
     build: ../snapserver/
-    image: snapserver
+   # image: snapserver
     ports:
         - "1704:1704"
         - "1705:1705"
